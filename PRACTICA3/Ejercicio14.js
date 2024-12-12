@@ -9,5 +9,8 @@ function ejecutar(){
             break;
         }
     }
-    document.writeln("Se han acabado los intentos")
+    if (i==3){
+        document.writeln("Se han acabado los intentos")
+    }
+    
 }
